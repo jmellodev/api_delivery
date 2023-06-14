@@ -28,7 +28,7 @@ class ProductController extends Controller
         $product = $this->repository->create($data);
 
         return new ProductResource($product);
-    }
+    } 
 
     public function show(Product $product)
     {
